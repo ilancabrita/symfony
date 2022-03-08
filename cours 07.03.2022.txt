@@ -1,0 +1,498 @@
+sudo mv composer.phar /usr/local/bin/composer
+
+
+__________________________________________________________________________________________________________________
+
+
+/usr/local/bin/composer 
+
+
+___________________________________________________________________________________________________________________
+
+
+$user = new darras() , $user->KillDarras($arg);
+
+
+____________________________________________________________________________________________________________________
+
+
+Microsoft Windows [version 10.0.22000.493]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\HP>cmd
+Microsoft Windows [version 10.0.22000.493]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\HP>composer
+   ______
+  / ____/___  ____ ___  ____  ____  ________  _____
+ / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
+\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
+                    /_/
+Composer version 2.2.7 2022-02-25 11:12:27
+
+Usage:
+  command [options] [arguments]
+
+Options:
+  -h, --help                     Display this help message
+  -q, --quiet                    Do not output any message
+  -V, --version                  Display this application version
+      --ansi                     Force ANSI output
+      --no-ansi                  Disable ANSI output
+  -n, --no-interaction           Do not ask any interactive question
+      --profile                  Display timing and memory usage information
+      --no-plugins               Whether to disable plugins.
+      --no-scripts               Skips the execution of all scripts defined in composer.json file.
+  -d, --working-dir=WORKING-DIR  If specified, use the given directory as working directory.
+      --no-cache                 Prevent use of the cache
+  -v|vv|vvv, --verbose           Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+
+Available commands:
+  about                Shows a short information about Composer.
+  archive              Creates an archive of this composer package.
+  browse               Opens the package's repository URL or homepage in your browser.
+  cc                   Clears composer's internal package cache.
+  check-platform-reqs  Check that platform requirements are satisfied.
+  clear-cache          Clears composer's internal package cache.
+  clearcache           Clears composer's internal package cache.
+  config               Sets config options.
+  create-project       Creates new project from a package into given directory.
+  depends              Shows which packages cause the given package to be installed.
+  diagnose             Diagnoses the system to identify common errors.
+  dump-autoload        Dumps the autoloader.
+  dumpautoload         Dumps the autoloader.
+  exec                 Executes a vendored binary/script.
+  fund                 Discover how to help fund the maintenance of your dependencies.
+  global               Allows running commands in the global composer dir ($COMPOSER_HOME).
+  help                 Displays help for a command
+  home                 Opens the package's repository URL or homepage in your browser.
+  i                    Installs the project dependencies from the composer.lock file if present, or falls back on the composer.json.
+  info                 Shows information about packages.
+  init                 Creates a basic composer.json file in current directory.
+  install              Installs the project dependencies from the composer.lock file if present, or falls back on the composer.json.
+  licenses             Shows information about licenses of dependencies.
+  list                 Lists commands
+  outdated             Shows a list of installed packages that have updates available, including their latest version.
+  prohibits            Shows which packages prevent the given package from being installed.
+  reinstall            Uninstalls and reinstalls the given package names
+  remove               Removes a package from the require or require-dev.
+  require              Adds required packages to your composer.json and installs them.
+  run                  Runs the scripts defined in composer.json.
+  run-script           Runs the scripts defined in composer.json.
+  search               Searches for packages.
+  self-update          Updates composer.phar to the latest version.
+  selfupdate           Updates composer.phar to the latest version.
+  show                 Shows information about packages.
+  status               Shows a list of locally modified packages.
+  suggests             Shows package suggestions.
+  u                    Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+  update               Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+  upgrade              Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+  validate             Validates a composer.json and composer.lock.
+  why                  Shows which packages cause the given package to be installed.
+  why-not              Shows which packages prevent the given package from being installed.
+
+C:\Users\HP>
+
+
+
+_____________________________________________________________________________________________________________________________________________________________
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+                                                                                                                        Installez la dernière version de PowerShell pour de nouvelles fonctionnalités et améliorations ! https://aka.ms/PSWindows                                                                                                                                                                                                                                               PS C:\Users\HP>  Set-ExecutionPolicy RemoteSigned -scope CurrentUser                                                    >>                                                                                                                      
+Modification de la stratégie d'exécution
+La stratégie d’exécution permet de vous prémunir contre les scripts que vous jugez non fiables. En modifiant la
+stratégie d’exécution, vous vous exposez aux risques de sécurité décrits dans la rubrique d’aide
+about_Execution_Policies à l’adresse https://go.microsoft.com/fwlink/?LinkID=135170. Voulez-vous modifier la stratégie
+d’exécution ?
+[O] Oui  [T] Oui pour tout  [N] Non  [U] Non pour tout  [S] Suspendre  [?] Aide (la valeur par défaut est « N ») :
+PS C:\Users\HP>  Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+>>
+
+Modification de la stratégie d'exécution
+La stratégie d’exécution permet de vous prémunir contre les scripts que vous jugez non fiables. En modifiant la
+stratégie d’exécution, vous vous exposez aux risques de sécurité décrits dans la rubrique d’aide
+about_Execution_Policies à l’adresse https://go.microsoft.com/fwlink/?LinkID=135170. Voulez-vous modifier la stratégie
+d’exécution ?
+[O] Oui  [T] Oui pour tout  [N] Non  [U] Non pour tout  [S] Suspendre  [?] Aide (la valeur par défaut est « N ») : o
+PS C:\Users\HP> iwr -useb get.scoop.sh | iex
+>>
+Initializing...
+Downloading scoop...
+Extracting...
+Creating shim...
+Downloading main bucket...
+Extracting...
+Adding ~\scoop\shims to your path.
+'lastupdate' has been set to '2022-03-07T16:22:01.8735087+01:00'
+Scoop was installed successfully!
+Type 'scoop help' for instructions.
+PS C:\Users\HP> scoop install symfony-cli
+>>
+Installing 'symfony-cli' (5.4.1) [64bit]
+symfony-cli_windows_amd64.zip (5,3 MB) [======================================================================] 100%
+Checking hash of symfony-cli_windows_amd64.zip ... ok.
+Extracting symfony-cli_windows_amd64.zip ... done.
+Linking ~\scoop\apps\symfony-cli\current => ~\scoop\apps\symfony-cli\5.4.1
+Creating shim for 'symfony'.
+'symfony-cli' (5.4.1) was installed successfully!
+PS C:\Users\HP> composer require symfony/orm-pack
+Info from https://repo.packagist.org: #StandWithUkraine
+Using version ^2.2 for symfony/orm-pack
+./composer.json has been created
+Running composer update symfony/orm-pack
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 52 installs, 0 updates, 0 removals
+  - Locking doctrine/annotations (1.13.2)
+  - Locking doctrine/cache (2.1.1)
+  - Locking doctrine/collections (1.6.8)
+  - Locking doctrine/common (3.2.2)
+  - Locking doctrine/dbal (3.3.2)
+  - Locking doctrine/deprecations (v0.5.3)
+  - Locking doctrine/doctrine-bundle (2.5.7)
+  - Locking doctrine/doctrine-migrations-bundle (3.2.2)
+  - Locking doctrine/event-manager (1.1.1)
+  - Locking doctrine/inflector (2.0.4)
+  - Locking doctrine/instantiator (1.4.1)
+  - Locking doctrine/lexer (1.2.3)
+  - Locking doctrine/migrations (3.4.1)
+  - Locking doctrine/orm (2.11.1)
+  - Locking doctrine/persistence (2.3.0)
+  - Locking doctrine/sql-formatter (1.1.2)
+  - Locking friendsofphp/proxy-manager-lts (v1.0.7)
+  - Locking laminas/laminas-code (4.5.1)
+  - Locking psr/cache (3.0.0)
+  - Locking psr/container (2.0.2)
+  - Locking psr/event-dispatcher (1.0.0)
+  - Locking psr/log (3.0.0)
+  - Locking symfony/cache (v6.0.6)
+  - Locking symfony/cache-contracts (v3.0.0)
+  - Locking symfony/config (v6.0.3)
+  - Locking symfony/console (v6.0.5)
+  - Locking symfony/dependency-injection (v6.0.6)
+  - Locking symfony/deprecation-contracts (v3.0.0)
+  - Locking symfony/doctrine-bridge (v6.0.6)
+  - Locking symfony/error-handler (v6.0.3)
+  - Locking symfony/event-dispatcher (v6.0.3)
+  - Locking symfony/event-dispatcher-contracts (v3.0.0)
+  - Locking symfony/filesystem (v6.0.6)
+  - Locking symfony/finder (v6.0.3)
+  - Locking symfony/framework-bundle (v6.0.6)
+  - Locking symfony/http-foundation (v6.0.6)
+  - Locking symfony/http-kernel (v6.0.6)
+  - Locking symfony/orm-pack (v2.2.0)
+  - Locking symfony/polyfill-ctype (v1.25.0)
+  - Locking symfony/polyfill-intl-grapheme (v1.25.0)
+  - Locking symfony/polyfill-intl-normalizer (v1.25.0)
+  - Locking symfony/polyfill-mbstring (v1.25.0)
+  - Locking symfony/polyfill-php72 (v1.25.0)
+  - Locking symfony/polyfill-php80 (v1.25.0)
+  - Locking symfony/polyfill-php81 (v1.25.0)
+  - Locking symfony/proxy-manager-bridge (v6.0.6)
+  - Locking symfony/routing (v6.0.5)
+  - Locking symfony/service-contracts (v3.0.0)
+  - Locking symfony/stopwatch (v6.0.5)
+  - Locking symfony/string (v6.0.3)
+  - Locking symfony/var-dumper (v6.0.6)
+  - Locking symfony/var-exporter (v6.0.6)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 52 installs, 0 updates, 0 removals
+  - Downloading psr/cache (3.0.0)
+  - Downloading doctrine/lexer (1.2.3)
+  - Downloading doctrine/annotations (1.13.2)
+  - Downloading doctrine/cache (2.1.1)
+  - Downloading doctrine/collections (1.6.8)
+  - Downloading doctrine/event-manager (1.1.1)
+  - Downloading doctrine/deprecations (v0.5.3)
+  - Downloading doctrine/persistence (2.3.0)
+  - Downloading doctrine/common (3.2.2)
+  - Downloading doctrine/inflector (2.0.4)
+  - Downloading doctrine/instantiator (1.4.1)
+  - Downloading psr/container (2.0.2)
+  - Downloading symfony/service-contracts (v3.0.0)
+  - Downloading symfony/stopwatch (v6.0.5)
+  - Downloading symfony/polyfill-mbstring (v1.25.0)
+  - Downloading symfony/polyfill-intl-normalizer (v1.25.0)
+  - Downloading symfony/polyfill-intl-grapheme (v1.25.0)
+  - Downloading symfony/polyfill-ctype (v1.25.0)
+  - Downloading symfony/string (v6.0.3)
+  - Downloading symfony/console (v6.0.5)
+  - Downloading psr/log (3.0.0)
+  - Downloading symfony/filesystem (v6.0.6)
+  - Downloading laminas/laminas-code (4.5.1)
+  - Downloading friendsofphp/proxy-manager-lts (v1.0.7)
+  - Downloading doctrine/dbal (3.3.2)
+  - Downloading doctrine/migrations (3.4.1)
+  - Downloading doctrine/sql-formatter (1.1.2)
+  - Downloading symfony/cache-contracts (v3.0.0)
+  - Downloading symfony/deprecation-contracts (v3.0.0)
+  - Downloading symfony/doctrine-bridge (v6.0.6)
+  - Downloading psr/event-dispatcher (1.0.0)
+  - Downloading symfony/event-dispatcher-contracts (v3.0.0)
+  - Downloading symfony/routing (v6.0.5)
+  - Downloading symfony/polyfill-php81 (v1.25.0)
+  - Downloading symfony/http-foundation (v6.0.6)
+  - Downloading symfony/event-dispatcher (v6.0.3)
+  - Downloading symfony/var-dumper (v6.0.6)
+  - Downloading symfony/error-handler (v6.0.3)
+  - Downloading symfony/http-kernel (v6.0.6)
+  - Downloading symfony/finder (v6.0.3)
+  - Downloading symfony/dependency-injection (v6.0.6)
+  - Downloading symfony/config (v6.0.3)
+  - Downloading symfony/var-exporter (v6.0.6)
+  - Downloading symfony/cache (v6.0.6)
+  - Downloading symfony/framework-bundle (v6.0.6)
+  - Downloading symfony/proxy-manager-bridge (v6.0.6)
+  - Downloading symfony/polyfill-php80 (v1.25.0)
+  - Downloading symfony/polyfill-php72 (v1.25.0)
+  - Downloading doctrine/orm (2.11.1)
+  - Downloading doctrine/doctrine-bundle (2.5.7)
+  - Downloading doctrine/doctrine-migrations-bundle (3.2.2)
+  - Downloading symfony/orm-pack (v2.2.0)
+  - Installing psr/cache (3.0.0): Extracting archive
+  - Installing doctrine/lexer (1.2.3): Extracting archive
+  - Installing doctrine/annotations (1.13.2): Extracting archive
+  - Installing doctrine/cache (2.1.1): Extracting archive
+  - Installing doctrine/collections (1.6.8): Extracting archive
+  - Installing doctrine/event-manager (1.1.1): Extracting archive
+  - Installing doctrine/deprecations (v0.5.3): Extracting archive
+  - Installing doctrine/persistence (2.3.0): Extracting archive
+  - Installing doctrine/common (3.2.2): Extracting archive
+  - Installing doctrine/inflector (2.0.4): Extracting archive
+  - Installing doctrine/instantiator (1.4.1): Extracting archive
+  - Installing psr/container (2.0.2): Extracting archive
+  - Installing symfony/service-contracts (v3.0.0): Extracting archive
+  - Installing symfony/stopwatch (v6.0.5): Extracting archive
+  - Installing symfony/polyfill-mbstring (v1.25.0): Extracting archive
+  - Installing symfony/polyfill-intl-normalizer (v1.25.0): Extracting archive
+  - Installing symfony/polyfill-intl-grapheme (v1.25.0): Extracting archive
+  - Installing symfony/polyfill-ctype (v1.25.0): Extracting archive
+  - Installing symfony/string (v6.0.3): Extracting archive
+  - Installing symfony/console (v6.0.5): Extracting archive
+  - Installing psr/log (3.0.0): Extracting archive
+  - Installing symfony/filesystem (v6.0.6): Extracting archive
+  - Installing laminas/laminas-code (4.5.1): Extracting archive
+  - Installing friendsofphp/proxy-manager-lts (v1.0.7): Extracting archive
+  - Installing doctrine/dbal (3.3.2): Extracting archive
+  - Installing doctrine/migrations (3.4.1): Extracting archive
+  - Installing doctrine/sql-formatter (1.1.2): Extracting archive
+  - Installing symfony/cache-contracts (v3.0.0): Extracting archive
+  - Installing symfony/deprecation-contracts (v3.0.0): Extracting archive
+  - Installing symfony/doctrine-bridge (v6.0.6): Extracting archive
+  - Installing psr/event-dispatcher (1.0.0): Extracting archive
+  - Installing symfony/event-dispatcher-contracts (v3.0.0): Extracting archive
+  - Installing symfony/routing (v6.0.5): Extracting archive
+  - Installing symfony/polyfill-php81 (v1.25.0): Extracting archive
+  - Installing symfony/http-foundation (v6.0.6): Extracting archive
+  - Installing symfony/event-dispatcher (v6.0.3): Extracting archive
+  - Installing symfony/var-dumper (v6.0.6): Extracting archive
+  - Installing symfony/error-handler (v6.0.3): Extracting archive
+  - Installing symfony/http-kernel (v6.0.6): Extracting archive
+  - Installing symfony/finder (v6.0.3): Extracting archive
+  - Installing symfony/dependency-injection (v6.0.6): Extracting archive
+  - Installing symfony/config (v6.0.3): Extracting archive
+  - Installing symfony/var-exporter (v6.0.6): Extracting archive
+  - Installing symfony/cache (v6.0.6): Extracting archive
+  - Installing symfony/framework-bundle (v6.0.6): Extracting archive
+  - Installing symfony/proxy-manager-bridge (v6.0.6): Extracting archive
+  - Installing symfony/polyfill-php80 (v1.25.0): Extracting archive
+  - Installing symfony/polyfill-php72 (v1.25.0): Extracting archive
+  - Installing doctrine/orm (2.11.1): Extracting archive
+  - Installing doctrine/doctrine-bundle (2.5.7): Extracting archive
+  - Installing doctrine/doctrine-migrations-bundle (3.2.2): Extracting archive
+  - Installing symfony/orm-pack (v2.2.0): Extracting archive
+28 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+42 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+PS C:\Users\HP> composer require symfony/form
+Using version ^6.0 for symfony/form
+./composer.json has been updated
+Running composer update symfony/form
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 5 installs, 0 updates, 0 removals
+  - Locking symfony/form (v6.0.5)
+  - Locking symfony/options-resolver (v6.0.3)
+  - Locking symfony/polyfill-intl-icu (v1.25.0)
+  - Locking symfony/property-access (v6.0.5)
+  - Locking symfony/property-info (v6.0.3)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 5 installs, 0 updates, 0 removals
+  - Downloading symfony/property-info (v6.0.3)
+  - Downloading symfony/property-access (v6.0.5)
+  - Downloading symfony/polyfill-intl-icu (v1.25.0)
+  - Downloading symfony/options-resolver (v6.0.3)
+  - Downloading symfony/form (v6.0.5)
+  - Installing symfony/property-info (v6.0.3): Extracting archive
+  - Installing symfony/property-access (v6.0.5): Extracting archive
+  - Installing symfony/polyfill-intl-icu (v1.25.0): Extracting archive
+  - Installing symfony/options-resolver (v6.0.3): Extracting archive
+  - Installing symfony/form (v6.0.5): Extracting archive
+6 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+47 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+PS C:\Users\HP> composer require --dev symfony/maker-bundle
+Info from https://repo.packagist.org: #StandWithUkraine
+Using version ^1.38 for symfony/maker-bundle
+./composer.json has been updated
+Running composer update symfony/maker-bundle
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 2 installs, 0 updates, 0 removals
+  - Locking nikic/php-parser (v4.13.2)
+  - Locking symfony/maker-bundle (v1.38.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 2 installs, 0 updates, 0 removals
+  - Downloading nikic/php-parser (v4.13.2)
+  - Downloading symfony/maker-bundle (v1.38.0)
+  - Installing nikic/php-parser (v4.13.2): Extracting archive
+  - Installing symfony/maker-bundle (v1.38.0): Extracting archive
+Generating autoload files
+48 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+PS C:\Users\HP> composer require symfony/mailer
+Using version ^6.0 for symfony/mailer
+./composer.json has been updated
+Running composer update symfony/mailer
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 4 installs, 0 updates, 0 removals
+  - Locking egulias/email-validator (3.1.2)
+  - Locking symfony/mailer (v6.0.5)
+  - Locking symfony/mime (v6.0.3)
+  - Locking symfony/polyfill-intl-idn (v1.25.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 4 installs, 0 updates, 0 removals
+  - Downloading symfony/polyfill-intl-idn (v1.25.0)
+  - Downloading symfony/mime (v6.0.3)
+  - Downloading egulias/email-validator (3.1.2)
+  - Downloading symfony/mailer (v6.0.5)
+  - Installing symfony/polyfill-intl-idn (v1.25.0): Extracting archive
+  - Installing symfony/mime (v6.0.3): Extracting archive
+  - Installing egulias/email-validator (3.1.2): Extracting archive
+  - Installing symfony/mailer (v6.0.5): Extracting archive
+2 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+52 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+PS C:\Users\HP> composer require symfony/validator doctrine/annotations
+Using version ^6.0 for symfony/validator
+Using version ^1.13 for doctrine/annotations
+./composer.json has been updated
+Running composer update symfony/validator doctrine/annotations
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 2 installs, 0 updates, 0 removals
+  - Locking symfony/translation-contracts (v3.0.0)
+  - Locking symfony/validator (v6.0.6)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 2 installs, 0 updates, 0 removals
+  - Downloading symfony/translation-contracts (v3.0.0)
+  - Downloading symfony/validator (v6.0.6)
+  - Installing symfony/translation-contracts (v3.0.0): Extracting archive
+  - Installing symfony/validator (v6.0.6): Extracting archive
+5 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+54 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+PS C:\Users\HP> composer require symfony/messenger
+Using version ^6.0 for symfony/messenger
+./composer.json has been updated
+Running composer update symfony/messenger
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking symfony/messenger (v6.0.3)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading symfony/messenger (v6.0.3)
+  - Installing symfony/messenger (v6.0.3): Extracting archive
+1 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+55 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+PS C:\Users\HP> composer require symfony/notifier
+Using version ^6.0 for symfony/notifier
+./composer.json has been updated
+Running composer update symfony/notifier
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking symfony/notifier (v6.0.6)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading symfony/notifier (v6.0.6)
+  - Installing symfony/notifier (v6.0.6): Extracting archive
+Generating autoload files
+56 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+PS C:\Users\HP> composer require symfony/serializer-pack
+Using version ^1.1 for symfony/serializer-pack
+./composer.json has been updated
+Running composer update symfony/serializer-pack
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 7 installs, 0 updates, 0 removals
+  - Locking phpdocumentor/reflection-common (2.2.0)
+  - Locking phpdocumentor/reflection-docblock (5.3.0)
+  - Locking phpdocumentor/type-resolver (1.6.0)
+  - Locking phpstan/phpdoc-parser (1.2.0)
+  - Locking symfony/serializer (v6.0.6)
+  - Locking symfony/serializer-pack (v1.1.0)
+  - Locking webmozart/assert (1.10.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 7 installs, 0 updates, 0 removals
+  - Downloading phpdocumentor/reflection-common (2.2.0)
+  - Downloading phpdocumentor/type-resolver (1.6.0)
+  - Downloading symfony/serializer (v6.0.6)
+  - Downloading phpstan/phpdoc-parser (1.2.0)
+  - Downloading webmozart/assert (1.10.0)
+  - Downloading phpdocumentor/reflection-docblock (5.3.0)
+  - Downloading symfony/serializer-pack (v1.1.0)
+  - Installing phpdocumentor/reflection-common (2.2.0): Extracting archive
+  - Installing phpdocumentor/type-resolver (1.6.0): Extracting archive
+  - Installing symfony/serializer (v6.0.6): Extracting archive
+  - Installing phpstan/phpdoc-parser (1.2.0): Extracting archive
+  - Installing webmozart/assert (1.10.0): Extracting archive
+  - Installing phpdocumentor/reflection-docblock (5.3.0): Extracting archive
+  - Installing symfony/serializer-pack (v1.1.0): Extracting archive
+1 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+58 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+PS C:\Users\HP> composer require symfony/translation
+Using version ^6.0 for symfony/translation
+./composer.json has been updated
+Running composer update symfony/translation
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking symfony/translation (v6.0.6)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading symfony/translation (v6.0.6)
+  - Installing symfony/translation (v6.0.6): Extracting archive
+1 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+59 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
