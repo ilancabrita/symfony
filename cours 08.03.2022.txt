@@ -1,0 +1,55 @@
+C:\Users\HP
+λ setting
+'setting' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\HP
+λ cd c:
+C:\Users\HP
+
+C:\Users\HP
+λ cd c:*
+
+C:\Users\HP
+λ cd C:\00- Ilan 2020.09.08\40- Pro 20.09.08\40.03 - Formation Doranco\cours\Symfony\Symfony-decouverte
+
+C:\00- Ilan 2020.09.08\40- Pro 20.09.08\40.03 - Formation Doranco\cours\Symfony\Symfony-decouverte(main)
+λ php bin/console doctrine:database:create
+
+In ExceptionConverter.php line 103:
+
+  An exception occurred in the driver: SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur c
+  ible l’a expressément refusée
+
+
+In Exception.php line 30:
+
+  SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+
+
+In Driver.php line 28:
+
+  SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+
+
+doctrine:database:create [-s|--shard SHARD] [-c|--connection [CONNECTION]] [--if-not-exists]
+
+
+C:\00- Ilan 2020.09.08\40- Pro 20.09.08\40.03 - Formation Doranco\cours\Symfony\Symfony-decouverte(main)
+λ
+C:\00- Ilan 2020.09.08\40- Pro 20.09.08\40.03 - Formation Doranco\cours\Symfony\Symfony-decouverte(main)
+λ ssnjpiuhip
+'ssnjpiuhip' n’est pas reconnu en tant que commande interne ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\00- Ilan 2020.09.08\40- Pro 20.09.08\40.03 - Formation Doranco\cours\Symfony\Symfony-decouverte(main)
+λ php bin/console doctrine:database:create
+Created database `db_name` for connection named default
+
+C:\00- Ilan 2020.09.08\40- Pro 20.09.08\40.03 - Formation Doranco\cours\Symfony\Symfony-decouverte(main)
+λ
+
+
+________________________________________________________________________________________________________________________________________________________
+
+
+
